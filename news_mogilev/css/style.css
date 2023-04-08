@@ -26,7 +26,23 @@ h1 {
 .news {
     background-color: #fff;
     padding: 50px 0 32px;
+
 }
+
+
+.news:nth-child(2n +1) {
+    background-color: rgba(0, 120, 201, 0.2);
+
+}
+
+
+.news:nth-of-type(-n + 2) h2::before {
+    content: "New! ";
+    color: #8b00ff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 
 article {
