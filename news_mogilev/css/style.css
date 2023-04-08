@@ -11,7 +11,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 400px;
-    background: url('https://pixabay.com/get/g1656878f09c1fb399215b5ba8d880b19380298eaae7247ffbeebb48c93cace9fe541b247ed3f693be5b6b21379dcae227ad9828c594aaa8839cb68670c0d7c58985f2cff2f7978b3517edf70fb1749ba_1920.jpg') bottom no-repeat;
+    background: url(../images/city.jpg) bottom no-repeat;
     background-size: cover;
 }
 
